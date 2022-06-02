@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+
+.timepicker{
+    border: 0px;
+    cursor: pointer;
+    background: transparent;
+    width: 165px;
+    height: 25px;
+    font-size: large;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.timepicker:focus{
+    outline: none;
+}
