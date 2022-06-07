@@ -17,7 +17,7 @@ function App() {
     const date1=new Date(sel);
     const date2=new Date(today);
     const diffDate=date1.getTime()-date2.getTime();
-    const resultDiff=Math.abs(diffDate/(1000*3600*24));
+    const resultDiff=Math.abs(diffDate/(1000*3600*24)+1);
 setDate(resultDiff);
 setSwitchs(true);
   }
@@ -25,7 +25,7 @@ setSwitchs(true);
 let content=<h1>궁금해요?</h1>;
 
 if(switches===true){
-content=<h1>우와! 벌써 {resdate}일이나 지났군요!😎</h1>
+content=<h1>우와! 벌써 {resdate}일째군요!😎</h1>
 }
   
 

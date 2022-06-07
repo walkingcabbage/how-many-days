@@ -13,6 +13,7 @@
     "react-datepicker": "^4.8.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+    "serve": "^13.0.2",
     "typeit": "^8.5.4",
     "typeit-react": "^2.4.4",
     "web-vitals": "^2.1.4"
@@ -44,7 +45,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "homepage": "http://walkingcabbage.github.io/how-many-days"
-  }
+    "gh-pages": "^4.0.0"
+  },
+  "homepage": "https://walkingcabbage.github.io/how-many-days"
 }
