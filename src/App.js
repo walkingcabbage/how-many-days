@@ -17,8 +17,8 @@ function App() {
     const date1=new Date(sel);
     const date2=new Date(today);
     const diffDate=date1.getTime()-date2.getTime();
-    const resultDiff=Math.abs(diffDate/(1000*3600*24)+1);
-setDate(resultDiff);
+    const resultDiff=Math.abs(diffDate/(1000*3600*24));
+setDate(resultDiff+1);
 setSwitchs(true);
   }
 
